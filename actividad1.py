@@ -28,7 +28,7 @@ def actividad1():
         y += 1 # incrementamos el valor de y en 1
         x = input('DIME LA CAPITAL DE ESPAÑA: ')
 
-    print(f'NUMERO DE INTENTOSS = {y}')
+    print(f'NUMERO DE INTE = {y}')
     fecha_fin = datetime.now()
     fecha_fin_format = fecha_fin.strftime('%H:%M:%S')
     print(f'FIN TEST {fecha_fin_format}')
